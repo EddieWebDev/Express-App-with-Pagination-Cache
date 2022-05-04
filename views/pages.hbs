@@ -1,0 +1,16 @@
+<h3 class="pageType">Pages</h3>
+
+{{#each pages}}
+    <h3>{{title.rendered}}</h3>
+    <p>{{{content.rendered}}}</p>
+{{/each}}
+
+{{#if showPrevLink}}
+    <a href="/pages?page={{prevPageNumber}}">Previous Page</a>
+{{/if}}
+
+({{page}})
+
+{{#if showNextLink}}
+    <a href="/pages?page={{nextPageNumber}}">Next Page</a>
+{{/if}}

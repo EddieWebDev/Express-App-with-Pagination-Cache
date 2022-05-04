@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+body {border: 1px solid;max-width: 700px;margin: 25px auto;padding: 20px;}
+
+html {background: cornsilk;}
+
+h1, h2, h3, p {
+    margin-bottom: 0.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pageType {
+    border: solid rgb(63, 183, 63) 2px;
+    max-width: 10%;
+    text-align: center;
+}
